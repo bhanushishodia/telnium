@@ -1,0 +1,113 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Anchor tags */
+a {
+  color: #0448B0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+ text-decoration: underline;
+}
+/* Cards */
+
+
+/* Footer base */
+footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 0 0px 0px;
+}
+footer a {
+  color: #bbb;
+}
+footer a:hover {
+  color: white;
+}
+
+
+.section_1 {
+  background: linear-gradient(180deg, #e1efff 0%, #ffffff 100%);
+}
+header {
+  background: rgba(225, 239, 255, 1);
+}
+
+header .nav-item {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.Started_btn{
+background: linear-gradient(90deg, #113154 25.22%, #0A449E 100%);
+color: #fff;
+text-decoration: none;
+border-radius: 30px;
+padding: 12px 25px;
+}
+.get-btn{
+    color: rgba(0, 0, 0, 1);
+border: 0.79px solid rgba(12, 62, 133, 1);
+text-decoration: none;
+border-radius: 30px;
+padding: 12px 25px;
+}
+.text-justify{
+  text-align: justify;
+}
+.card_gradient{
+background: linear-gradient(180deg, #E5F1FF 0%, #FFFFFF 100%);
+}
+.card-title{
+  text-decoration: none;
+}
+.card_why{
+ 
+  border-radius: 30px;
+  background: linear-gradient(180deg, #E5F1FF 0%, #FFFFFF 100%);
+
+
+}
+.card_why p{
+color: rgba(128, 128, 128, 1);
+
+
+}
+.card_why a{
+text-decoration: none;
+
+
+}
+.card_why .card-title {
+ color: rgba(18, 18, 18, 1);
+ font-size: 22px;
+ font-weight: 600;
+}.gradient-text {
+  background: linear-gradient(180deg, #0448B0 0%, #021E4A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.rounded_card{
+  background: linear-gradient(180deg, #EEF7FF 0%, #FFFFFF 100%);
+box-shadow: 0px 0px 50px -13px rgba(0, 0, 0, 0.6);
+border-radius: 50%;
+width: 220px;
+height: 220px;
+text-align: center;
+}
